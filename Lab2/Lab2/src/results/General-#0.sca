@@ -1,0 +1,28 @@
+version 3
+run General-0-20241025-18:36:25-1763835
+attr configname General
+attr datetime 20241025-18:36:25
+attr datetimef 20241025-183625
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Network
+attr processid 1763835
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network Network
+
+par Network.player2.out.channel typename "\"ned.IdealChannel\""
+par Network.player1.out.channel typename "\"ned.IdealChannel\""
+par Network.player1 typename "\"lab2.Player1\""
+par Network.player1 number 5
+par Network.player2 typename "\"lab2.Player2\""
+par Network.player2 guess "int(uniform(0, 10))"
+par Network typename "\"lab2.Network\""
+
