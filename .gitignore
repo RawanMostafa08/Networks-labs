@@ -1,0 +1,9 @@
+simulations
+out
+.settings
+.cproject
+.nedexclusions
+.nedfolders
+.oppbuildspec
+.project
+.qtenvrc
